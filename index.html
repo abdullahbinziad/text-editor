@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Text Editor</title>
+    <script
+      src="https://kit.fontawesome.com/5f939c5387.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="w-3/4 mx-auto my-5 bg-green-400 px-16 py-4">
+        <h1 class="text-center font-bold text-2xl py-2">The Editor</h1>
+      <div class="  p-8 border-2">
+        
+   <div class="flex justify-between">
+    <div class=" flex gap-3 ">
+        <i id="text-bold" class="fa-solid fa-bold hover:bg-amber-400  p-2 "></i>
+        <i id="text-italic" class="fa-solid fa-italic hover:bg-amber-400 p-2 "></i>
+        <i id="text-under-line" class="fa-solid fa-underline hover:bg-amber-400 p-2 "></i>
+      </div>
+      <div class=" flex gap-3 ">
+        <i class="align-btn active"></i>
+          <i id="text-left" class=" align-btn  fa-solid fa-align-left hover:bg-amber-400 p-2 "></i>
+          <i id="text-center" class=" align-btn fa-solid fa-align-center hover:bg-amber-400 p-2 "></i>
+          <i id="text-right" class=" align-btn fa-solid fa-align-right hover:bg-amber-400 p-2 "></i>
+          <i id="text-justify" class=" align-btn fa-solid fa-align-justify hover:bg-amber-400 p-2 "></i>
+      </div>
+      <div class=" flex gap-3 ">
+        <input id="text-size" class="w-10 rounded-md p-1" type="number">
+        <input id="text-color" type="color"> 
+      </div>
+   </div>
+   <hr class="border-b-2 mt-4">
+
+   <textarea   name="" id="my-text" class="w-full p-3 m-2 h-64" ></textarea>
+    </div>
+   
+     
+      <script src="./index.js"></script>
+    </section>
+  </body>
+</html>

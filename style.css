@@ -1,0 +1,12 @@
+.active{
+    background-color: aqua;
+}
+.bold{
+    font-weight: bold;
+}
+.italec{
+    font-style:italic;
+}
+.underline{
+    text-decoration: underline;
+}
